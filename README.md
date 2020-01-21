@@ -4,7 +4,7 @@ tags: []
 
 ---
 
-# Week 2 of DigitalCrafs. Python - Object Oriented Programming
+# Week 2 of DigitalCrafts. Python - Object Oriented Programming
 
 --Repo created on 1/21/2020--
 
