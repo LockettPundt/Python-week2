@@ -35,8 +35,13 @@ class Person:
     def __str__(self):
         return "Hi, I'm {}. My email is: {}. My phone number is: {}\n".format(self.name, self.email, self.phone)
     
-    def num_unique_people_greeted(self):
-        return "{} has met {} unique people.\n".format(self.name, len(self.people_greeted))
+    def num_unique_people_greeted(self): 
+        #bonus method that add unique greets to an array
+        #and return the number of unique people greeted
+        if len(self.people_greeted) == 1:
+          return "{} has met {} unique person.\n".format(self.name, len(self.people_greeted))
+        else:
+          return "{} has met {} unique people.\n".format(self.name, len(self.people_greeted))
         
 
         
